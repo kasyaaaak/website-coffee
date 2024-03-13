@@ -1,0 +1,228 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #bb9457;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #fff;
+}
+
+.header__menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 33px 0;
+}
+
+.header__menu-link {
+  color: #bb9457;
+  font-weight: 700;
+  font-size: 20px;
+  transition: all 0.3s ease-in;
+}
+
+.header__menu-link:hover {
+  color: #99582a;
+}
+
+.active {
+  color: #99582a;
+  border-bottom: 2px solid #99582a;
+}
+
+.inner {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 135px 0;
+  border-bottom: 3px solid #fff;
+}
+
+.inner__title {
+  font-weight: 700;
+  font-size: 48px;
+  max-width: 450px;
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+
+.inner__subtitle {
+  font-size: 18px;
+  max-width: 508px;
+}
+
+.features {
+  padding: 33px 0;
+  border-bottom: 3px solid #fff;
+}
+
+.features__title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 33px;
+}
+
+.features__cardbox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 33px;
+}
+
+.features__card {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 14px 18px;
+}
+
+.features__card-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #99582a;
+  margin-bottom: 14px;
+}
+
+.features__card-text {
+  font-size: 14px;
+  color: #99582a;
+}
+
+.popular {
+  padding: 33px 0;
+  border-bottom: 3px solid #fff;
+  background-color: #99582a;
+}
+
+.popular__title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 33px;
+}
+
+.popular__drinks,
+.popular__desserts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular__drinks {
+  margin-bottom: 33px;
+}
+
+.popular__drinks-img {
+  border-radius: 20px 20px 0 0;
+  border: 3px solid #fff;
+}
+
+.popular__drinks-name,
+.popular__desserts-name {
+  background-color: #fff;
+  height: 42px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #99582a;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.popular__desserts-img {
+  border: 3px solid #fff;
+}
+
+.popular__desserts-name {
+  border-radius: 0 0 20px 20px;
+}
+
+.contact__form {
+  padding: 90px 0;
+  border-bottom: 3px solid #fff;
+}
+
+.form__title {
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 33px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 926px;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 36px 254px;
+  background-color: #99582a;
+}
+
+.form__subtitle {
+  font-weight: 500;
+  font-size: 21px;
+  max-width: 250px;
+  line-height: 1.2;
+  margin-bottom: 35px;
+}
+
+input,
+.form__button {
+  height: 44px;
+  border: 2px solid #bb9457;
+  border-radius: 20px;
+  padding: 13px 0 13px 19px;
+}
+
+.form__firstname,
+.form__phone {
+  background-color: #fff;
+  margin-bottom: 18px;
+  color: #99582a;
+  font-weight: 500;
+}
+
+.form__button {
+  background-color: #bb9457;
+  border-color: #fff;
+  padding: 11px 22px;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 13px;
+  box-shadow: 0 4px 6.1px rgba(255, 255, 255, 0.25);
+}
+
+footer {
+  background-color: #99582a;
+  padding: 18px 0;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+}
+
+.social__block-img {
+  height: 30px;
+}
+
+.social__block-name {
+  color: #fff;
+}
